@@ -1,0 +1,115 @@
+/* Container */
+.container-servis {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Layanan List */
+.layanan-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.layanan-item {
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.layanan-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Menjadikan harga di kanan */
+h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin: 0;
+}
+
+.service-name {
+    flex-grow: 1; /* Memastikan teks layanan tetap di kiri */
+}
+
+.price {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    white-space: nowrap; /* Mencegah harga turun ke bawah */
+}
+
+.text p {
+    font-size: 13px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Container untuk tombol */
+.container-ini {
+    display: flex;
+    justify-content: center; /* Posisikan tombol di tengah */
+    gap: 20px; /* Beri jarak antara tombol */
+    margin-top: 20px; /* Beri jarak dari atas */
+}
+
+/* Styling untuk tombol */
+.back-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #555;
+}
+
+/* Styling untuk ikon */
+.back-icon {
+    width: 40px;
+    height: 40px;
+}
+
+/* Responsif: jika layar lebih kecil */
+@media (max-width: 768px) {
+    .container-ini {
+        flex-direction: row; /* Tetap horizontal di layar kecil */
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .back-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+

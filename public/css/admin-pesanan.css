@@ -1,0 +1,93 @@
+#pesanan-admin {
+    padding: 15px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+    font-size: 14px;
+   
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.progress.tracking-bar {
+    min-width: 120px;
+}
+
+/* Warna tracking bar sesuai status */
+.progress-bar-pending {
+    background-color: #f1c40f !important; /* Kuning */
+}
+
+.progress-bar-proses {
+    background-color: #e67e22 !important; /* Oranye */
+}
+
+.progress-bar-dikirim {
+    background-color: #3498db !important; /* Biru */
+}
+
+.progress-bar-selesai {
+    background-color: #2ecc71 !important; /* Hijau */
+}
+
+/* Box tracking */
+.tracking-wrapper {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    min-width: 150px;
+    max-width: 300px;
+    padding: 5px;
+}
+
+/* Progress bar utama */
+.tracking-bar {
+    height: auto;
+    min-height: 30px;
+}
+
+/* Teks dalam progress bar */
+.progress-text {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.btn-cetak-pdf {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 6px 12px;
+    font-size: 0.875rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-cetak-pdf:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-riwayat {
+    background-color: #007bff;
+    padding: 6px 12px;
+    font-size: 0.875rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-weight: 500;
+}

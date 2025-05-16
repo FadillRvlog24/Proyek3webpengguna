@@ -1,0 +1,79 @@
+/* Container styling */
+.statistik-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Card styling */
+.statistik-card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Header styling */
+.statistik-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 10px;
+    color: #333;
+}
+
+/* Card title and text */
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #495057;
+}
+
+.card-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+.btn-kembali-dashboard {
+    margin-top: 25px;
+    padding: 8px 18px;
+    font-weight: 500;
+}
+
+/* List group styling */
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+    padding: 12px 15px;
+    font-size: 15px;
+}
+
+/* Badge status styling */
+.badge {
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 50px;
+}
+
+/* Chart responsiveness */
+canvas {
+    max-width: 100%;
+    height: auto !important;
+}
+
+/* Extra spacing */
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}

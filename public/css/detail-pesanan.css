@@ -1,0 +1,76 @@
+.timeline {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 2rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #ccc;
+}
+
+.timeline-step {
+    position: relative;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 10px;
+}
+
+.timeline-step::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    left: -1px;
+    top: 12px;
+    background: #ccc;
+    z-index: 1;
+}
+
+.timeline-step.completed::before {
+    background: #4caf50;
+}
+
+.badge-step {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.progress-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.status-box {
+    background: #eee;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+.status-box.completed {
+    background: #4caf50;
+    color: white;
+}
+
+.progress-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.btn-simpan {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.edit-layanan-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.edit-layanan-container h2 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+.edit-layanan-form-group {
+    margin-bottom: 20px;
+}
+
+.edit-layanan-form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+.edit-layanan-form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.edit-layanan-button-group {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-layanan-button-group .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.edit-layanan-button-group .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
