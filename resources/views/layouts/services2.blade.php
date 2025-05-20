@@ -181,7 +181,7 @@
                         <!-- social -->
                         <div class="footer-social">
                             <a href="https://api.whatsapp.com/message/SCECA3U7ACBAE1?autoload=1&app_absent=0"><img src="{{ asset('img/icons8-whatsapp-22.png')}}"></a>
-                            <a href=""><img src="{{ asset('img/icons8-instagram-22.png')}}"></a>
+                            <a href="https://www.instagram.com/mbah.suh/"><img src="{{ asset('img/icons8-instagram-22.png')}}"></a>
                         </div>
                     </div>
                 </div>
@@ -204,7 +204,7 @@
                     <div class="footer-tittle">
                         <h4>Hubungi kami</h4>
                         <ul>
-                            <li class="number"><a href="#"> +62 821-2902-2786</a></li>
+                            <li class="number"><a href="https://api.whatsapp.com/message/SCECA3U7ACBAE1?autoload=1&app_absent=0"> +62 821-2902-2786</a></li>
                             <li><a href="#">@mbah.suh</a></li>
                             <li><a href="#">Jl Magasari 37-47, Margadadi, Indramayu,  Indramayu  Regency, Jawa Barat 45211.</a></li>
                         </ul>
